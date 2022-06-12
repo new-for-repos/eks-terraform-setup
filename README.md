@@ -1,11 +1,5 @@
-#  **<span style="color:green">Landmark Technologies, Ontario, Canada.</span>**
-### **<span style="color:green">Contacts: +1437 215 2483<br> WebSite : <http://mylandmarktech.com/></span>**
-### **Email: mylandmarktech@gmail.com**
-# Landmark Technologies,  -    Landmark Technologies 
-# Tel: +1 437 215 2483,   -     +1 437 215 2483 
-#    www.mylandmarktech.com 
-# Terraform Installation And Setup In AWS EC2 Linux Instances
-#  Using Terraform to provision a fully managed Amazon EKS Cluster
+## Terraform Installation And Setup In AWS EC2 Linux Instances
+## Using Terraform to provision a fully managed Amazon EKS Cluster
 
 ##### Prerequisite
 + AWS Acccount.
@@ -43,7 +37,7 @@ $ source ~/.bashrc
 $
 #### Clone terraform scripts
 ``` sh
-$ git clone https://github.com/mylandmarktechs/eks-terraform-setup
+$ git clone
 $ cd eks-terraform-setup
 ```
 #### <span style="color:orange">Update Your Key Name in variables.tf file before executing terraform script.</span>
@@ -58,11 +52,6 @@ $ terraform validate
 $ terraform plan 
 # Apply to create resources
 $ terraform apply --auto-approve
-```
-
-```sh
-##  Destroy Infrastructure  
-$ terraform destroy --auto-approve
 
 ## create the kubeconfig file  
 $ mkdir .kube/ 
